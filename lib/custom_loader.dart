@@ -200,3 +200,6 @@ class _RollingLoaderState extends State<RollingLoader> with SingleTickerProvider
     return start + (end - start) * t;
   }
 }
+
+
+
