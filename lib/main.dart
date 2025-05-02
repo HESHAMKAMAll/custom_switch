@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+import 'custom_loader.dart';
+
+
+/// Example of how to use the RollingLoader in an app
+import 'package:flutter/material.dart';
 import 'custom_star_rating.dart';
 import 'custom_switch.dart';
 
@@ -59,6 +64,30 @@ class _MyAppState extends State<MyApp> {
                 ),
                 const SizedBox(height: 20),
                 const StarRating(starCount: 3, size: 24.0, initialRating: 1, isEnabled: false, strokeColor: Colors.blueGrey, fillColor: Colors.amber),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    // Default loader
+                    const RollingLoader(),
+                    const SizedBox(height: 60),
+                    // Custom styled loader
+                    const RollingLoader(
+                      size: 120.0,
+                      lineColor: Colors.blue,
+                      squareColor: Colors.amber,
+                      lineWidth: 6.0,
+                      duration: Duration(milliseconds: 2000),
+                    ),
+                    const SizedBox(height: 60),
+                    // Smaller, faster loader
+                    const RollingLoader(
+                      size: 60.0,
+                      lineColor: Colors.green,
+                      squareColor: Colors.redAccent,
+                      duration: Duration(milliseconds: 1500),
+                    ),
+                  ],
+                ),
               ],
             ),
           ),
@@ -67,5 +96,3 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
-
-
