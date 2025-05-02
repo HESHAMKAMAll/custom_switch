@@ -6,8 +6,8 @@ A new Flutter project.
 
 Feast your eyes on the vibes!
 
-<img src="https://drive.google.com/uc?export=view&id=1AveHcPtT5JBpQRKAEy-JkYc9EsbeXmQt" width="250" />
-<img src="https://drive.google.com/uc?export=view&id=1rF1JEDBIN4ZNqzyZKvMJMWGKzmfpDjTY" width="250" />
+<img src="https://drive.usercontent.google.com/download?id=1ksWtrdPG7bJBIwSn8L0AOtJLiPcDBF2G&export=view&authuser=0" width="350" />
+<img src="https://drive.usercontent.google.com/download?id=1lvZ_IVg9YhAsI_Ztgyf7Q_52eC_Ii8Zq&export=view&authuser=0" width="350" />
 
 ## Getting Started
 
